@@ -62,3 +62,18 @@ if msg == ";reset" then
    end
   end)
  end)
+ --Game specific
+ if msg == ";noscopearcade" then 
+    local char = player.Character
+    local human = char.HumanoidRootPart
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
+   end
+  end)
+ end)
+ if msg == ";combatwarriors" then 
+    local char = player.Character
+    local human = char.HumanoidRootPart
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/cheese-hook/main/main%20hydra%20ui.lua",true))()
+   end
+  end)
+ end)
